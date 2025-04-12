@@ -4,10 +4,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Controls {
-    public void inputKey(String key)
-    {
+    public void inputKey(String key) {
 
-        while(true) {
+        while (true) {
 
             Midi playNote = new Midi();
             Scanner getKey = new Scanner(System.in);
@@ -87,8 +86,7 @@ public class Controls {
                 }
             }
 
-            if (key.equals("stop"))
-            {
+            if (key.equals("stop")) {
                 System.exit(0);
             }
         }
